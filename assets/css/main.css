@@ -110,7 +110,6 @@
       border-radius: 0;
  }
 .img-thumbnail.img-thumbnail-dashed img {
-          height: 540px;
           object-fit: cover;
           width: 100%;
  }
@@ -677,6 +676,10 @@ top: 14px;
            width: 70% !important;
       }
 
+
+      .img-thumbnail.img-thumbnail-dashed img {
+           height: 540px;
+      }
      
        .products-items {
             font-size: 30px;
