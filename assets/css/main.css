@@ -47,7 +47,6 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      background: transparent;
  }
  .jumbotron:not(.no-img) {
       background-image: url("../imgs/hero.png");
@@ -370,20 +369,19 @@
 
 
    .news-section .header p:first-child{
-font-size: 150px;
-   color: rgb(255 255 255 / 80%);
+font-size: 9em;
+  color: rgb(232 232 232 / 80%);
    }
    .news-section .header p:last-child{
     font-size: 33rem;
     transform: rotate(-90deg) translateY(-25px);
-    color: rgb(255 255 255 / 80%);
+   color: rgb(232 232 232 / 80%);
    }
 
     .news-section::before{
             content: "";
             background-image: url(../imgs/bg-shape.png);
             width: 92%;
-            height: 165%;
             position: absolute;
             left: 8%;
             display: none;
@@ -411,13 +409,13 @@ font-size: 150px;
                 padding-bottom: 100px;
    }
    .news-section-wrapper::before{
-   content: "news";
-   font-size: 33rem;
-   transform: rotate(-90deg) translateY(-25px);
-   color: #F8F8F8;
-   position: absolute;
-   left: -180px;
-   text-transform: uppercase;
+    content: "news";
+    font-size: 28rem;
+    transform: rotate(-90deg) translateY(-25px);
+    color: #F8F8F8;
+    position: absolute;
+    left: -140px;
+    text-transform: uppercase;
    
    }
 
@@ -655,11 +653,11 @@ top: 14px;
              }
 
              .products-items h1 {
-                  font-size: 2em !important;
+                  font-size: 1.5em !important
              }
 
              .products-items img {
-                  width: 2em;
+                  width:1.8em
              }
 
                  @media (max-width: 1200px) {
@@ -686,10 +684,18 @@ top: 14px;
     @media (min-width: 992px) {
 
 
+       .products-items h1 {
+            font-size: 2em !important
+       }
+
+       .products-items img {
+            width: 2em
+       }
+
       .news-hero-img {
            height: 547px;
       }
-      
+
         .suppliers-section h1 {
              font-size: 6rem;
              margin-left: 25px;
