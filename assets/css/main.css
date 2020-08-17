@@ -680,10 +680,16 @@ top: 14px;
                  .carousel-content h3 {
                       font-size: 1rem;
                  }
-               
+
+                
                 
     @media (min-width: 992px) {
 
+
+      .news-hero-img {
+           height: 547px;
+      }
+      
         .suppliers-section h1 {
              font-size: 6rem;
              margin-left: 25px;
