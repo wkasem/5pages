@@ -48,9 +48,7 @@
       background-repeat: no-repeat;
       background-size: cover;
  }
- .jumbotron:not(.no-img) {
-      background-image: url("../imgs/hero.png");
- }
+
 
  .jumbotron .carousel {
         position: absolute;
