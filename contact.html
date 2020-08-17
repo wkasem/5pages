@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+          <link rel="stylesheet" href="./assets/fonts/style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+               integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+               crossorigin="anonymous" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+               integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+               crossorigin="anonymous" />
+
+          <link rel="stylesheet" href="./assets/css/main.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.css"
+               integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+               crossorigin="anonymous" />
+     </head>
+
+     <body>
+
+
+
+           <div class="jumbotron jumbotron-fluid p-0 mb-0">
+                <nav class="navbar navbar-expand-lg pt-0">
+                     <div class="container">
+                          <div class="collapse navbar-collapse justify-content-end pt-2">
+                               <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/tur.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/yem.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/uae.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/usa.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/kuw.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/ksa.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/ger.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/chn.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/egy.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/eng.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                                    <li class="nav-item">
+                                         <a class="nav-link text-center" href="#">
+                                              <p class="text-dark">14.00</p>
+                                              <img src="./assets/imgs/ina.png" alt="" style="width: 31px;">
+                                         </a>
+                                    </li>
+                               </ul>
+                          </div>
+                     </div>
+                </nav>
+
+                <div style="height: 500px;">
+
+
+                     <div class="bg-dark-light position-relative pt-lg-4 pt-1">
+                          <div class=" position-left-0 logo d-none d-lg-block">
+                               <img src="./assets/imgs/logo.png" alt="" class="ml-5">
+                          </div>
+                          <div class="container">
+                               <div
+                                    class=" navbar navbar-expand-lg navbar-light  justify-content-end pt-2 sub-main d-none d-lg-block">
+
+                                    <ul class="navbar-nav collapse navbar-collapse justify-content-end">
+                                         <li
+                                              class="nav-item d-flex align-items-center justify-content-center text-dark mx-5">
+                                              <img src="./assets/imgs/phone.png" alt="" class="mr-3">
+                                              <span>01099758439</span>
+                                         </li>
+                                         <li
+                                              class="nav-item d-flex align-items-center justify-content-center text-dark">
+                                              <img src="./assets/imgs/mail.png" alt="" class="mr-3">
+                                              <span>wkasem22@gmail.com</span>
+                                         </li>
+                                    </ul>
+                               </div>
+
+                               <nav class="navbar navbar-expand-lg  pt-2 font-weight-bold main-nav">
+                                    <a class="navbar-brand d-block d-lg-none" href="#">
+                                         <img src="./assets/imgs/logo.png" alt="" width="50">
+                                    </a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                         aria-expanded="false" aria-label="Toggle navigation">
+                                         <img src="./assets/imgs/burger.svg" alt="">
+                                    </button>
+
+
+                                    <div class="collapse navbar-collapse justify-content-lg-end  mt-5 mt-xl-0"
+                                         id="navbarSupportedContent">
+                                         <ul class="navbar-nav  ">
+                                              <li href="./home.html" class="nav-item">
+                                                   <a class="nav-link text-dark" href="#">
+                                                        Home
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="./about.html" class="nav-link text-dark" href="#">
+                                                        About
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="./news.html" class="nav-link text-dark" href="#">
+                                                        News
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="./products.html" class="nav-link text-dark" href="#">
+                                                        Products
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="#" class="nav-link text-dark" href="#">
+                                                        Services
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="#" class="nav-link text-dark" href="#">
+                                                        Events
+                                                   </a>
+                                              </li>
+                                              <li class="nav-item">
+                                                   <a href="./contact.html" class="nav-link text-dark" href="#">
+                                                        Contact
+                                                   </a>
+                                              </li>
+                                         </ul>
+                                    </div>
+                               </nav>
+                          </div>
+                     </div>
+                </div>
+
+                <div style="background-color: rgba(0, 0, 0, .6);">
+                     <div class="container py-3 px-5">
+                          <h1>CONTACT US IMMEDIATELY </h1>
+
+                          <div class="mt-4">
+                               <h4>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                                    gravida.
+                                    Risus commodo viverra maecenas accumsan lacus vel facilisis. Quis ipsum suspendisse
+                                    ultrices gravida.
+                               </h4>
+                          </div>
+                     </div>
+                </div>
+           </div>
+
+           <div class="page-break no-dash mt-2"> </div>
+
+          <section class="container mt-5">
+               <div class="row">
+                    <div class="col-lg-4">
+                         <div class="contact-header text-uppercase d-flex align-items-center justify-content-center h-100">
+                              contact
+                         </div>
+                    </div>
+                    <div class="col-lg-8">
+                         <div class="row">
+                              <div class="col-lg-6">
+                                   <h4 class="text-muted">
+                                        Contact info Contact info Contact info Contact 
+                                        <br>info Contact info Contact info
+                                        <br>Contact info Contact info :
+                                        <br>Phone: 00000000000000
+                                        <br>Email: sdfgbn@;lkjhgf;lkj
+                                   </h4>
+
+                                   <br>
+
+                                  <h4 class="text-muted">
+                                       Contact info Contact info Contact info Contact
+                                       <br>info Contact info Contact info
+                                       <br>Contact info Contact info :
+                                       <br>Phone: 00000000000000
+                                       <br>Email: sdfgbn@;lkjhgf;lkj
+                                  </h4>
+
+                              </div>
+                              <div class="col-lg-6">
+                                   <div class="contact-header-box mb-3 ml-5">
+                                        <span>Get</span>
+                                        <span>In</span>
+                                        <span>Touch</span>
+                                   </div>
+                              </div>
+                         </div>
+
+
+
+                         <h3 class="text-danger">Drop Us Line</h3>
+
+                         <form action="">
+                              <div class="form-group">
+                                   <label for="full_name">Email address</label>
+                                   <input type="email" class="form-control contact" id="full_name" placeholder="Davide Malam">
+                              </div>
+                              <div class="form-group">
+                                   <label for="email">Email address</label>
+                                   <input type="email" class="form-control contact" id="email" placeholder="example@email.com">
+                              </div>
+                              <div class="form-group">
+                                   <label for="phone_number">Phone Number</label>
+                                   <input type="email" class="form-control contact" id="phone_number"
+                                        placeholder="+1 123 456 7896">
+                              </div>
+                              <div class="form-group">
+                                   <label for="msg">Your Message</label>
+                                   <text-area type="email" class="form-control contact" id="msg"
+                                        placeholder="Write Your Message">
+                              </div>
+
+                              <button class="btn btn-danger">
+                                   Send Now
+                              </button>
+
+                         </form>
+                    </div>
+               </div>
+          </section>
+
+          <div class="py-5"></div>
+
+          <section class="container pt-5">
+               <div class="card ">
+                    <div class="card-body p-0">
+                         <div id="kt_leaflet_3" style="height:500px;"></div>
+                    </div>
+               </div>
+          </section>
+
+   <div class="container-fluid">
+        <section class="mt-5 newsletter-section pb-5">
+             <div class="container">
+                  <h3 class="font-face-fancy text-danger" style="font-size: 3rem;">
+                       JASS Newsletter
+                  </h3>
+             </div>
+
+             <div class="px-4 pb-4 newsletter-form contact bg-white position-relative mt-5 news-letter-form">
+                  <div class="row">
+                       <div class="col-lg-10 col-12">
+                            <p class="header">Like what you're reading? Subscribe to our top stories.</p>
+                            <input type="text" class="ml-lg-4">
+                            <div class="custom-control  custom-checkbox text-lg-right mt-2 ml-3 ml-md-0 ">
+                                 <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                 <label class="custom-control-label text-muted font-size-lg-2 " for="customCheck1">
+                                      I agree to store of my email according to Privacy Policy.
+                                 </label>
+                            </div>
+                       </div>
+
+                  </div>
+
+                  <button class="section-header-box mb-3 ml-lg-5 mt-2 mt-lg-5 pb-0 bg-transparent">
+                       <p class="text-muted d-block subscribe">subscribe</p>
+                       <span>now</span>
+                  </button>
+
+             </div>
+
+        </section>
+   </div>
+   <!-- Footer -->
+   <footer class="page-footer font-small">
+
+        <!-- Footer Links -->
+        <div class="container">
+
+             <!-- Grid row-->
+             <div class="row row-mobile text-center justify-content-center pt-5 mb-3 footer-nav">
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">Home</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">About</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">News</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">Services</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">Events</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col mb-3">
+                       <h4 class="text-uppercase font-weight-bold">
+                            <a href="#!" class="text-white">Contact</a>
+                       </h4>
+                  </div>
+                  <!-- Grid column -->
+
+             </div>
+
+             <hr class="clearfix d-md-none" style="margin: 10% 15% 5%;">
+
+             <!-- Grid row-->
+             <div class="row pb-3">
+
+
+                  <!-- Grid column -->
+                  <div class="col-lg-12">
+
+                       <div class="text-center">
+
+                            <!-- Facebook -->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-facebook-f.svg" width="30" alt="">
+                            </a>
+                            <!-- Twitter -->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-twitter-squared-48.png" width="30" alt="">
+
+                            </a>
+                            <!-- Google +-->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-tumblr.svg" width="30" alt="">
+                            </a>
+                            <!--Linkedin -->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-play-button.svg" width="30" alt="">
+                            </a>
+                            <!--Instagram-->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-instagram.svg" width="30" alt="">
+
+                            </a>
+                            <!--Pinterest-->
+                            <a href="#" class="mx-4 mt-3 d-inline-block">
+                                 <img src="./assets/imgs/social/icons8-behance.svg" width="30" alt="">
+                            </a>
+
+                       </div>
+
+                  </div>
+                  <!-- Grid column -->
+
+             </div>
+             <!-- Grid row-->
+
+        </div>
+        <!-- Footer Links -->
+
+        <!-- Grid row-->
+        <hr style="margin: 0 15%;">
+
+        <!-- Copyright -->
+        <h5 class="text-center py-3 text-white pb-5 mb-0">
+             Copyright @ 2020 JASS FOR AGENCIS & TRADE
+        </h5>
+        <!-- Copyright -->
+
+   </footer>
+   <!-- Footer -->
+
+          <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+                   integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+                   crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.6.0/leaflet.js"
+               integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+               crossorigin="anonymous"></script>
+          <script type="text/javascript">
+               // Class definition
+               var KTLeaflet = function () {
+
+                    // Private functions
+                    var demo3 = function () {
+                         // define leaflet
+                         var leaflet = L.map('kt_leaflet_3', {
+                              center: [47.339, 11.602],
+                              zoom: 3
+                         })
+
+                         // set leaflet tile layer
+                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                              attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                         }).addTo(leaflet);
+
+
+                         // set custom SVG icon marker
+                         var leafletIcon1 = L.divIcon({
+                              html: `<span class="svg-icon svg-icon-danger svg-icon-3x"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24"
+                    version="1.1">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                         <rect x="0" y="24" width="24" height="0" />
+                         <path d="M5,10.5 C5,6 8,3 12.5,3 C17,3 20,6.75 20,10.5 C20,12.8325623 17.8236613,16.03566 13.470984,20.1092932 C12.9154018,20.6292577 12.0585054,20.6508331 11.4774555,20.1594925 C7.15915182,16.5078313 5,13.2880005 5,10.5 Z M12.5,12 C13.8807119,12 15,10.8807119 15,9.5 C15,8.11928813 13.8807119,7 12.5,7 C11.1192881,7 10,8.11928813 10,9.5 C10,10.8807119 11.1192881,12 12.5,12 Z"
+                              fill="#000000" fill-rule="nonzero" />
+                    </g>
+               </svg></span>`,
+                              bgPos: [10, 10],
+                              iconAnchor: [20, 37],
+                              popupAnchor: [0, -37],
+                              className: 'leaflet-marker'
+                         });
+
+                         var leafletIcon2 = L.divIcon({
+                              html: `<span class="svg-icon svg-icon-primary svg-icon-3x"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24"
+                    version="1.1">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                         <rect x="0" y="24" width="24" height="0" />
+                         <path d="M5,10.5 C5,6 8,3 12.5,3 C17,3 20,6.75 20,10.5 C20,12.8325623 17.8236613,16.03566 13.470984,20.1092932 C12.9154018,20.6292577 12.0585054,20.6508331 11.4774555,20.1594925 C7.15915182,16.5078313 5,13.2880005 5,10.5 Z M12.5,12 C13.8807119,12 15,10.8807119 15,9.5 C15,8.11928813 13.8807119,7 12.5,7 C11.1192881,7 10,8.11928813 10,9.5 C10,10.8807119 11.1192881,12 12.5,12 Z"
+                              fill="#000000" fill-rule="nonzero" />
+                    </g>
+               </svg></span>`,
+                              bgPos: [10, 10],
+                              iconAnchor: [20, 37],
+                              popupAnchor: [0, -37],
+                              className: 'leaflet-marker'
+                         });
+
+                         var leafletIcon3 = L.divIcon({
+                              html: `<span class="svg-icon svg-icon-warning svg-icon-3x"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24"
+                    version="1.1">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                         <rect x="0" y="24" width="24" height="0" />
+                         <path d="M5,10.5 C5,6 8,3 12.5,3 C17,3 20,6.75 20,10.5 C20,12.8325623 17.8236613,16.03566 13.470984,20.1092932 C12.9154018,20.6292577 12.0585054,20.6508331 11.4774555,20.1594925 C7.15915182,16.5078313 5,13.2880005 5,10.5 Z M12.5,12 C13.8807119,12 15,10.8807119 15,9.5 C15,8.11928813 13.8807119,7 12.5,7 C11.1192881,7 10,8.11928813 10,9.5 C10,10.8807119 11.1192881,12 12.5,12 Z"
+                              fill="#000000" fill-rule="nonzero" />
+                    </g>
+               </svg></span>`,
+                              bgPos: [10, 10],
+                              iconAnchor: [20, 37],
+                              popupAnchor: [0, -37],
+                              className: 'leaflet-marker'
+                         });
+
+                         var leafletIcon4 = L.divIcon({
+                              html: `<span class="svg-icon svg-icon-success svg-icon-3x"><svg xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24"
+                    version="1.1">
+                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                         <rect x="0" y="24" width="24" height="0" />
+                         <path d="M5,10.5 C5,6 8,3 12.5,3 C17,3 20,6.75 20,10.5 C20,12.8325623 17.8236613,16.03566 13.470984,20.1092932 C12.9154018,20.6292577 12.0585054,20.6508331 11.4774555,20.1594925 C7.15915182,16.5078313 5,13.2880005 5,10.5 Z M12.5,12 C13.8807119,12 15,10.8807119 15,9.5 C15,8.11928813 13.8807119,7 12.5,7 C11.1192881,7 10,8.11928813 10,9.5 C10,10.8807119 11.1192881,12 12.5,12 Z"
+                              fill="#000000" fill-rule="nonzero" />
+                    </g>
+               </svg></span>`,
+                              bgPos: [10, 10],
+                              iconAnchor: [20, 37],
+                              popupAnchor: [0, -37],
+                              className: 'leaflet-marker'
+                         });
+
+                         // bind markers with popup
+                         var marker1 = L.marker([39.3262345, -4.8380649], {
+                              icon: leafletIcon1
+                         }).addTo(leaflet);
+                         var marker2 = L.marker([41.804, 13.843], {
+                              icon: leafletIcon2
+                         }).addTo(leaflet);
+                         var marker3 = L.marker([51.11, 10.371], {
+                              icon: leafletIcon3
+                         }).addTo(leaflet);
+                         var marker4 = L.marker([46.74, 2.417], {
+                              icon: leafletIcon4
+                         }).addTo(leaflet);
+
+                         marker1.bindPopup("Spain", {
+                              closeButton: false
+                         });
+                         marker2.bindPopup("Italy", {
+                              closeButton: false
+                         });
+                         marker3.bindPopup("Germany", {
+                              closeButton: false
+                         });
+                         marker4.bindPopup("France", {
+                              closeButton: false
+                         });
+
+                         L.control.scale().addTo(leaflet);
+                    }
+
+                    return {
+                         // public functions
+                         init: function () {
+                              // default charts
+                              demo3();
+                         }
+                    };
+               }();
+
+               jQuery(document).ready(function () {
+                    KTLeaflet.init();
+               });
+
+          </script>
+     </body>
+
+</html>
