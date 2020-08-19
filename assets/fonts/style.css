@@ -90,3 +90,9 @@ font-style: normal;
 font-weight: normal;
 src: local('Montserrat-Bold'), url('Montserrat-Bold.woff') format('woff');
 }
+@font-face {
+font-family: 'Proxima-Nova-Sbold';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima-Nova-Sbold'), url('Proxima-Nova-Sbold.woff') format('woff');
+}
