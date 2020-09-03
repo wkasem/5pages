@@ -314,8 +314,13 @@
       font-size: 3.3rem;
  }
 
+ .news-slider-card .card-body {
+      font-size: 2.1rem;
+
+ }
+
  .products-card .card-body {
-      font-size: 22px;
+      font-size: 2.5rem;
  }
 
  .products-card .card-footer {
@@ -870,7 +875,7 @@
            font-size: 6rem;
            margin-left: 25px;
            -webkit-text-fill-color: #b62025;
-           -webkit-text-stroke-width: 5px;
+           -webkit-text-stroke-width: 2px;
            -webkit-text-stroke-color: #fff;
            text-transform: uppercase;
       }
