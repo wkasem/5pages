@@ -104,11 +104,17 @@
       object-fit: cover;
  }
 
+ .page-break,
+ .page-break-striped {
+
+      padding-top: .9rem;
+      padding-bottom: 3rem;
+ }
+
  .page-break:not(.no-dash),
  .page-break-striped {
       background-image: url("../imgs/bg-shape.png");
-      padding-top: .5rem;
-      padding-bottom: 3rem;
+
  }
 
  .text-danger {
@@ -196,17 +202,23 @@
 
 
  .section-text-bg::after {
+
+
       content: "About";
       position: absolute;
       text-transform: capitalize;
       right: 10%;
       font-size: 10rem;
       color: #f8f8f8;
+
       letter-spacing: 10px;
-      bottom: 0;
-      width: 100%;
+      top: -116px;
+
       z-index: -5;
       text-align: center;
+      right: 166px;
+      text-transform: uppercase;
+      letter-spacing: 46px;
  }
 
  .bg-dark-light {
@@ -271,11 +283,11 @@
  .products-slider-bg {
       content: "";
       position: absolute;
-      height: 106%;
-      width: 111%;
+      height: 112%;
+      width: 107%;
       background-color: #898989;
-      left: -40px;
-      top: -27px;
+      left: 0px;
+      top: -5px;
       z-index: 0;
       overflow: hidden;
  }
@@ -406,6 +418,7 @@
       background: white;
       width: 100%;
       text-align: center;
+      font-size: 4rem;
  }
 
 
@@ -444,21 +457,26 @@
       text-transform: uppercase;
  }
 
+ .news-section {
+      padding-bottom: 55px;
+      position: relative;
+ }
 
  .news-section .header p:first-child {
-      font-size: 9em;
-      color: rgb(232 232 232 / 80%);
+      font-size: 20em;
+      color: rgb(255 255 255 / 80%);
  }
 
  .news-section .header p:last-child {
-      font-size: 33rem;
-      transform: rotate(-90deg) translateY(-25px);
-      color: rgb(232 232 232 / 80%);
+      font-size: 40rem;
+      transform: rotate(-90deg) translateY(-6px) translateX(2px);
+      color: rgb(255 255 255 / 80%);
+      text-transform: uppercase;
  }
 
  .news-section::before {
       content: "";
-      background-image: url(../imgs/bg-shape.png);
+      background-image: url(../imgs/pattern.png);
       width: 92%;
       position: absolute;
       left: 8%;
@@ -468,7 +486,7 @@
  }
 
  .news-slider {
-      background-image: url(../imgs/bg-shape.png);
+      background-image: url(../imgs/pattern.png);
       height: 100%;
  }
 
@@ -496,6 +514,18 @@
       position: absolute;
       left: -85px;
       text-transform: uppercase;
+
+ }
+
+ .news-section::after {
+      content: "";
+      background: url(../imgs/pattern.png);
+      width: 92%;
+      height: 95%;
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      top: 0;
 
  }
 
@@ -548,11 +578,15 @@
       width: 100%;
       height: 60px;
       border: 5px solid #D7D7D7;
+      font-size: 5rem;
+      text-indent: 4rem;
+
  }
 
  .newsletter-form {
       width: 100%;
       border: 5px solid #D7D7D7;
+      border-left: 0;
  }
 
 
@@ -573,6 +607,7 @@
       position: absolute;
       z-index: -1;
       top: -45px;
+      left: 75px;
  }
 
  .newsletter-form::before {
@@ -655,6 +690,7 @@
  @media (min-width: 1150px) {
       .services-stats .stats-header {
            position: absolute;
+           font-size: 4rem;
       }
  }
 
@@ -701,15 +737,20 @@
 
  @media (min-width: 1250px) {
       .section-text-bg::before {
+
+
+
            content: "About";
            position: absolute;
            text-transform: capitalize;
-           font-size: 25rem;
+           font-size: 83rem;
            color: #f8f8f8;
-           letter-spacing: 10px;
-           top: -201px;
+
+           letter-spacing: 50px;
+           top: -6px;
            z-index: -5;
-           left: 40%;
+           left: 0;
+           text-transform: uppercase;
       }
  }
 
@@ -929,13 +970,17 @@
 
       }
 
+      .form-control {
+           font-size: 4rem;
+      }
+
       .form-control.contact {
            width: 70% !important;
       }
 
 
       .img-thumbnail.img-thumbnail-dashed img {
-           height: 595px;
+           height: 500px;
       }
 
       .img-thumbnail.home img {
@@ -1043,14 +1088,12 @@
       }
 
       .contact-header {
-           font-size: 13rem;
+           font-size: 28rem;
            transform: rotate(-90deg);
 
       }
 
-      .footer-nav {
-           margin: 0 100px;
-      }
+
 
       .news-letter-form button {
            position: absolute;
@@ -1063,7 +1106,7 @@
       }
 
       .section-text-bg::after {
-           font-size: 25rem;
+           font-size: 40rem;
       }
 
  }
@@ -1089,9 +1132,9 @@
       right: 0;
       width: 258px;
       background: white;
-      font-size: 4rem;
+      font-size: 6rem;
       text-align: center;
-      top: -15px;
+      top: -6px;
       color: #5C5C5C;
  }
 
@@ -1175,13 +1218,13 @@
       width: 60rem;
       transform: rotate(-90deg);
       transform-origin: top right;
-      top: 180px;
+      top: 90px;
  }
 
  .product-img-title.reversed {
       left: -7px;
       transform-origin: top left;
-      top: 545px;
+      top: 445px;
  }
 
  .product-img-title div {
@@ -1192,11 +1235,21 @@
  }
 
  .product-img-title span {
-      letter-spacing: 5px;
-      font-size: 3.9rem;
+      letter-spacing: 2px;
+      font-size: 3.6rem;
       line-height: 43px;
       color: #1e1e27;
       font-weight: 100;
+      font-family: Myriad Pro Semibold Italic;
+ }
+
+ .product-img-title-mobile {
+      letter-spacing: 2px;
+      font-size: 3.6rem;
+      line-height: 43px;
+      color: #1e1e27;
+      font-weight: 100;
+      font-family: Myriad Pro Semibold Italic;
  }
 
  .form-group .form-control {
@@ -1307,16 +1360,17 @@
 
  .custom-control-label::before {
       position: absolute;
-      top: 0.50rem;
-      left: -2.5rem;
+      top: 1.5rem;
+      left: -5.5rem;
       display: block;
-      width: 2rem;
-      height: 2rem;
+      width: 4rem;
+      height: 4rem;
       pointer-events: none;
       content: "";
       background-color: #fff;
       border: #D7D7D7 solid 4px;
       border-radius: 0;
+ }
  }
 
  .custom-control-input:checked~.custom-control-label::before {
@@ -1325,8 +1379,10 @@
  }
 
  .custom-control-label::after {
-      top: 1rem;
-      left: -2rem;
+      top: .5rem;
+      left: -6.5rem;
+      width: 6rem;
+      height: 6rem;
  }
 
  .page-footer {
@@ -1397,7 +1453,7 @@
  }
 
  .font-size-25 {
-      font-size: 2.5rem;
+      font-size: 3rem;
  }
 
  .margin-left-9\.7 {
@@ -1422,4 +1478,11 @@
 
  .mt-8 {
       margin-top: 8rem;
+ }
+
+ .footer-nav {
+      margin: 0 auto;
+      width: 50%;
+      font-size: 4rem;
+      font-weight: 100;
  }

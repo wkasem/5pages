@@ -22,10 +22,9 @@
 
      <body>
 
-          <div class="jumbotron condensed  no-img jumbotron-fluid p-0 mb-0 position-relative"
-               style="background: transparent;">
+          <div class="jumbotron  no-img jumbotron-fluid p-0 mb-0 position-relative" style="background: transparent;">
                <nav class="navbar navbar-expand-lg pt-0">
-                    <div class="container">
+                    <div class="container-fluid">
                          <div class="collapse navbar-collapse justify-content-end pt-2 mr-8">
                               <ul class="navbar-nav nav-flags">
                                    <li class="nav-item">
@@ -101,17 +100,9 @@
 
                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner h-100">
+
                          <div class="carousel-item active h-100">
-                              <img class="d-block w-100 h-100" src="./assets/imgs/hero.png" alt="First slide">
-                         </div>
-                         <div class="carousel-item h-100">
-                              <img class="d-block w-100 h-100"
-                                   src="./assets/imgs/vecteezy_oil-and-gas-pipe-line-valves_1134232@1X.png"
-                                   alt="First slide">
-                         </div>
-                         <div class="carousel-item h-100 ">
-                              <img class="d-block w-100 h-100" src="./assets/imgs/vecteezy_oil-refinery_1142642@1X.png"
-                                   alt="First slide">
+                              <img class="d-block w-100 h-100" src="./assets/imgs/mens.png" alt="First slide">
                          </div>
                     </div>
                </div>
@@ -123,7 +114,7 @@
                          <div class=" position-left-0 logo d-none d-lg-block  mt-5">
                               <img src="./assets/imgs/logo.png" alt="" class="ml-5">
                          </div>
-                         <div class="container">
+                         <div class="container-fluid">
                               <div class=" navbar navbar-expand-lg mr-8 navbar-light justify-content-end pt-2 sub-main d-none
                             d-lg-block">
 
@@ -198,20 +189,28 @@
 
                <div style="background-color: rgba(0, 0, 0, .6);" class="carousel-content">
                     <div class="container py-3 px-5">
-                         <h1>Vision, Mission & Values </h1>
+                         <div class="mx-5">
+                              <h1 style="font-size: 8rem;">Vision, Mission & Values</h1>
 
-                         <h2>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quas magni omnis
-                              laboriosam, tempora tempore vitae hic
-                              nemo minus magnam porro mollitia autem, a ratione nihil neque. Culpa, soluta voluptatum?
-                         </h2>
+
+                              <p style="font-size: 3rem;">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatibus
+                                   quod numquam distinctio dignissimos accusamus repellat quo similique,
+                                   enim,
+                                   saepe laboriosam ut voluptatem itaque earum nemo exercitationem. Sit,
+                                   earum
+                                   ratione.
+                              </p>
+
+
+                         </div>
                     </div>
                </div>
           </div>
 
           <div class="page-break no-dash mt-2"> </div>
 
-          <section class="container mt-5">
+          <section class="container-fluid mt-5">
                <div class="row mx-5">
                     <div class="col-lg-4">
                          <div
@@ -222,7 +221,7 @@
                     <div class="col-lg-7">
                          <div class="row row-mobile">
                               <div class="col-lg-6">
-                                   <h3 class="text-gery font-size-3.1">
+                                   <h3 class="font-size-3.1" style="color:757575">
                                         Contact info Contact info Contact info Contact
                                         info Contact info Contact info
                                         <br>Contact info Contact info :
@@ -232,7 +231,7 @@
 
                                    <br>
 
-                                   <h3 class="text-gery font-size-3.1">
+                                   <h3 class="font-size-3.1" style="color:757575">
                                         Contact info Contact info Contact info Contact
                                         info Contact info Contact info
                                         <br>Contact info Contact info :
@@ -252,7 +251,7 @@
 
 
 
-                         <h2 class="text-danger my-4 font-weight-bold font-face-italic font-size-3.1">Drop Us Line</h2>
+                         <h2 class="text-danger my-5 font-weight-bold font-face-italic font-size-4.1">Drop Us Line</h2>
 
                          <form action="">
                               <div class="form-group">
@@ -272,11 +271,12 @@
                               </div>
                               <div class="form-group">
                                    <label for="msg">Your Message</label>
-                                   <text-area type="email" class="form-control contact" id="msg"
-                                        placeholder="Write Your Message">
+                                   <textarea type="email" class="form-control contact" id="msg"
+                                        placeholder="Write Your Message" rows="3">
+                                        </textarea>
                               </div>
 
-                              <button class="btn btn-danger font-face-italic">
+                              <button class="btn btn-danger font-face-italic mt-5">
                                    Send Now
                               </button>
 
@@ -287,7 +287,7 @@
 
           <div class="py-5"></div>
 
-          <section class="container pt-5">
+          <section class="container-fluid pt-5">
                <div class="card mx-5">
                     <div class="card-body p-0">
                          <div id="kt_leaflet_3" style="height:500px;"></div>
@@ -295,9 +295,9 @@
                </div>
           </section>
 
-          <div class="container">
+          <div class="container-fluid">
                <section class="mt-5 newsletter-section pb-5">
-                    <div class="container">
+                    <div class="container-fluid">
 
                          <h3 class="font-face-fancy text-danger" style="font-size: 3rem;margin-bottom:8rem;">
                               JASS Newsletter
@@ -333,7 +333,7 @@
           <footer class="page-footer font-small">
 
                <!-- Footer Links -->
-               <div class="container">
+               <div class="container-fluid">
 
                     <!-- Grid row-->
                     <div class="row row-mobile text-center justify-content-center pt-5 mb-3 footer-nav">
