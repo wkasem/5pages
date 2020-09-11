@@ -3,14 +3,16 @@
 
 
 @font-face {
-font-family: 'MyriadPro-Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Myriad Pro Condensed'), url('MYRIADPRO-COND.woff') format('woff');
+     font-family: 'MyriadPro-Regular';
+     src: url('MYRIADPRO-REGULAR.woff') format('woff2'),
+     url('MYRIADPRO-REGULAR.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
 }
 
 @font-face {
-     font-family: 'Myriad Pro';
+     font-family: 'Myriad Pro Cond';
      src: url('./x/MyriadPro-Cond.woff2') format('woff2'),
           url('./x/MyriadPro-Cond.woff') format('woff');
      font-weight: normal;
